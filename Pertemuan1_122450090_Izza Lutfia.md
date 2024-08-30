@@ -1,0 +1,23 @@
+# Izza Lutfia 122450090 RC
+## Visualisasi Data dan Informasi
+
+
+
+
+
+Visualisasi data adalah proses mengubah data abstrak menjadi representasi visual yang memanfaatkan elemen seperti panjang, posisi, bentuk, dan warna untuk menyampaikan informasi secara lebih intuitif kepada manusia. Dalam konteks ini, dokumen menggarisbawahi pentingnya visualisasi data dalam membantu organisasi membuat keputusan strategis dan operasional yang didasarkan pada data besar.
+1. Spesifikasi Visualisasi: Bagian pertama dari survei ini membahas spesifikasi visualisasi, yang mencakup cara pengguna dapat menentukan apa yang mereka inginkan dari visualisasi data. Proses ini melibatkan beberapa langkah penting :
+Persiapan Data : Langkah pertama adalah mempersiapkan data yang akan divisualisasikan, termasuk normalisasi nilai, koreksi entri yang salah, dan interpolasi nilai yang hilang.
+Manipulasi Data : Tahap ini melibatkan pemilihan data yang akan divisualisasikan melalui berbagai operasi seperti penggabungan dan pengelompokan. Ini mencakup penerjemahan kueri visualisasi ke dalam kueri SQL yang dapat dievaluasi oleh DBMS.
+Pemetaan dan Rendering : Pemetaan mengacu pada proses mengubah data menjadi geometri primitif (seperti titik dan garis) dan atribut visual (seperti warna, posisi, dan ukuran). Rendering adalah tahap akhir yang mengubah data geometris ini menjadi representasi visual yang dapat diinterpretasikan.
+2. Pendekatan Efisien untuk Visualisasi Data: Bagian kedua mendalami pendekatan yang digunakan untuk membuat visualisasi data lebih efisien dan terukur. Mengingat bahwa siklus hidup visualisasi data sering kali berulang dengan melibatkan manusia dalam prosesnya, efisiensi sangatlah penting. Beberapa teknik yang disorot termasuk:
+Penggunaan Database dan Sistem Backend: Banyak sistem visualisasi data, seperti HyperDB dan Falcon, memungkinkan pemrosesan data dalam jumlah besar secara efisien dengan mendukung kueri interaktif secara real-time.
+Teknik Optimasi: Teknik optimasi seperti solusi perkiraan dan visualisasi progresif dibahas untuk menangani data besar dan memberikan respons waktu nyata. Pendekatan ini memungkinkan visualisasi untuk menyempurnakan hasil secara bertahap dan memberikan umpan balik instan kepada pengguna.
+Integrasi DBMS dengan Sistem Visualisasi: Integrasi ini bertujuan untuk menggabungkan pengambilan data dan rendering visual secara erat untuk mempercepat proses pembuatan visualisasi. Tantangan yang dihadapi dalam metode ini adalah optimasi kueri yang terpisah antara sisi server dan klien, yang seringkali memerlukan pendekatan khusus untuk berbagai skenario visualisasi.
+3. Rekomendasi Visualisasi Data: Menentukan visualisasi yang tepat seringkali menjadi tantangan, bahkan bagi para ahli. Oleh karena itu, rekomendasi visualisasi menjadi komponen penting dalam sistem visualisasi modern. Beberapa pendekatan yang dibahas mencakup:
+Spesifikasi yang Tidak Ditentukan: Banyak sistem visualisasi modern seperti DeepEye dan Voyager memungkinkan pengguna memberikan spesifikasi visualisasi yang ambigu, yang kemudian disempurnakan oleh sistem secara otomatis atau dengan bantuan rekomendasi.
+Navigasi dan Eksplorasi: Sistem seperti DeepEye mendukung navigasi bersegi untuk membantu pengguna menjelajahi ruang desain visualisasi. Misalnya, pengguna dapat memilih berbagai aspek seperti jenis grafik, kategori, dan ukuran bin untuk mengeksplorasi data lebih lanjut.
+Teknik Berbasis Pembelajaran Mesin: Survei ini juga membahas bagaimana teknik pembelajaran mesin digunakan untuk memprediksi visualisasi yang mungkin relevan dengan pengguna berdasarkan data historis dan pola interaksi sebelumnya.
+Perkembangan Teknologi dan Alat Visualisasi: Dokumen ini juga mencakup tinjauan tentang berbagai teknologi dan alat yang telah memajukan bidang visualisasi data. Misalnya, komunitas grafis komputer telah mengembangkan teknologi rendering yang indah namun dapat diinterpretasikan secara mandiri, seperti D3.js, Vega-Lite, dan Tableau. Selain itu, komunitas database juga telah memberikan kontribusi signifikan dalam meningkatkan pengalaman pengguna dalam melihat dan berinteraksi dengan visualisasi data, termasuk melalui pengembangan mesin backend seperti HyperDB untuk mendukung aplikasi visualisasi seperti Tableau.
+
+Secara keseluruhan, menjelaskan pandangan mendalam tentang teknik, alat, dan pendekatan yang dapat digunakan untuk membuat visualisasi data menjadi lebih efisien dan efektif. Hal ini sangat penting dalam era di mana data besar menjadi semakin umum, dan kemampuan untuk memvisualisasikan data secara cepat dan akurat menjadi faktor kunci dalam pengambilan keputusan yang berbasis data.
